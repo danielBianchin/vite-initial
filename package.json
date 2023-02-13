@@ -7,6 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Daniel Bianchin",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^4.0.1",
+    "vite": "^4.1.1"
+  },
+  "type": "module"
 }
