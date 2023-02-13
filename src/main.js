@@ -1,5 +1,5 @@
-
-import { nanoid } from 'nanoid'
+import { nanoid } from 'nanoid';
+import './style.css';
 
 const buttonElement = document.querySelector('button');
 
@@ -9,4 +9,4 @@ const displayPassword = document.getElementsByTagName('h2')[0];
 
 buttonElement.addEventListener('click', () => {
   displayPassword.innerHTML = nanoid();
-})
+});
