@@ -14,4 +14,5 @@ const h2 = document.querySelector('h2');
 
 h2.addEventListener('click', (element) => {
   copy(element.target.innerHTML);
+  alert(`Senha copiada! Happy Valentine's Day my Love 😘`)
 });
